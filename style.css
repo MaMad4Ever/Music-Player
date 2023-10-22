@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+body {
+  background: #f5f5f5;
+  overflow-y: scroll;
+  font-family: "Karla", sans-serif;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 30px 0px;
+  transform: translate(-50%, -50%);
+  height: 700px;
+  width: 300px;
+}
+.app {
+  width: 320px;
+  height: 580px;
+  border-radius: 40px;
+  background: #e0e0e0;
+  box-shadow: 11px 11px 39px #949494, -11px -11px 39px #ffffff;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  outline: none;
+  border: none;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.arrow {
+  position: absolute;
+  left: 5px;
+  top: 20px;
+}
+.bar {
+  position: absolute;
+  right: -10px;
+  top: 20px;
+}
+.text {
+  text-align: center;
+  padding-top: 25px;
+  color: #666;
+}
+.image {
+  width: 220px;
+  height: 220px;
+  margin: 50px 50px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 11px 11px 22px #a4a4a4, 
+    -11px -11px 22px #ffffff;
+}
+img {
+  margin: 10px;
+  border-radius: 50%;
+}
+.image h2,
+p {
+  text-align: center;
+}
+.image p {
+  color: #666;
+  margin: -10px;
+}
+.track {
+  width: 260px;
+  height: 15px;
+  border-radius: 30px;
+  margin: 120px 30px;
+  background: #e0e0e0;
+  box-shadow: 7px 7px 14px #b8b8b8, 
+    -5px -5px 14px #ffffff;
+}
+.track:after {
+  content: "";
+  position: absolute;
+  background: #CF8993;
+  border-radius: 30px;
+  width: 170px;
+  height: 15px;
+}
+.heart {
+  position: absolute;
+  margin: -70px 30px;
+  color: red;
+}
+.backward {
+  position: absolute;
+  margin: -70px 100px;
+}
+.play {
+  position: absolute;
+  margin: -70px 170px;
+}
+.forward {
+  position: absolute;
+  margin: -70px 240px;
+}
